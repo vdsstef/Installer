@@ -50,7 +50,7 @@ Function main() {
         winget uninstall cortana --silent
         winget uninstall Microsoft.DevHome --silent
         # update existing programs
-        winget upgrade --all --accept-source-agreements
+        winget upgrade --all
     }
 }
 
